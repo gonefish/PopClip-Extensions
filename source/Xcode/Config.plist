@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Required Apps</key>
+	<array>
+		<string>com.apple.dt.Xcode</string>
+	</array>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Documentation</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>modifiers</key>
+				<real>1835008</real>
+				<key>keyCode</key>
+				<integer>44</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Jump</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>modifiers</key>
+				<integer>1310720</integer>
+				<key>keyCode</key>
+				<integer>38</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>info.gonefish.PopClip.Xcode</string>
+	<key>Extension Name</key>
+	<string>Xcode</string>
+	<key>Regular Expression</key>
+	<string>(?s)^\w{1,}$</string>
+	<key>Credits</key>
+	<dict>
+		<key>Link</key>
+		<string>https://github.com/gonefish</string>
+		<key>Name</key>
+		<string>Qian GuoQiang</string>
+	</dict>
+</dict>
+</plist>
